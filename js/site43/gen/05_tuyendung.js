@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $('.menu-list > li').click(function(){
+    $(this).closest('li').toggleClass("active");
+  });
   let params = new URL(document.location).searchParams;
   let name = params.get("site");
   var elem = $(".menu-list > li");
@@ -82,16 +85,6 @@ $(function () {
   //             .find(".menu-link")
   //             .removeClass("active");
   //     });
-});$(document).ready(function () {
-    $("#slidein2").owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        // autoplay: true,
-        // autoplayTimeout: 2000,
-        items: 1,
-        dots: false,
-      });
 });$(document).ready(function () {
     $("#slide_tuyendung").owlCarousel({
       loop: true,

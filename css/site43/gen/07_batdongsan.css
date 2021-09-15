@@ -702,11 +702,11 @@
     width: 100%;
   }
   .site43_html_col0_batdongsan .sile-content_top .left_sile-content .text_slide {
-    left: calc(100% / 2 - 87% / 2);
-    width: 87%;
-    height: 100px;
+    left: calc(100% / 2 - 90% / 2);
+    width: 90%;
+    height: 75px;
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px 10px;
   }
   .site43_html_col0_batdongsan .sile-content_top .right_sile-content .slick-next,
 .site43_html_col0_batdongsan .sile-content_top .right_sile-content .slick-prev {
