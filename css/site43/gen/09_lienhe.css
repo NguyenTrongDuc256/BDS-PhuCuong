@@ -86,7 +86,7 @@
   padding-bottom: 100px;
 }
 .site43_head_col0_BDSPhuCuong .content3_0 {
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
 }
 .site43_head_col0_BDSPhuCuong .content3_0:hover {
@@ -140,14 +140,14 @@
 .site43_head_col0_BDSPhuCuong .menu-list .menu-c2 {
   display: none;
 }
-.site43_head_col0_BDSPhuCuong .menu-list > li {
+.site43_head_col0_BDSPhuCuong .menu-list li {
   position: relative;
 }
-.site43_head_col0_BDSPhuCuong .menu-list > li:hover .menu-c2 {
+.site43_head_col0_BDSPhuCuong .menu-list li:hover .menu-c2 {
   display: block;
   animation: showAnimation 0.4s ease-in-out;
 }
-.site43_head_col0_BDSPhuCuong .menu-list > li.active-color a {
+.site43_head_col0_BDSPhuCuong .menu-list li.active-color > a {
   color: #009865;
 }
 
@@ -169,6 +169,9 @@
     padding: 0;
     border-radius: 0;
     box-shadow: unset;
+  }
+  .site43_head_col0_BDSPhuCuong .menu-c2 li:first-child {
+    border-bottom: 1px solid #ebebeb !important;
   }
   .site43_head_col0_BDSPhuCuong .menu_header {
     padding-left: 0;
@@ -209,6 +212,9 @@
   }
   .site43_head_col0_BDSPhuCuong .menu_header .menu-list li:last-child {
     border: 0;
+  }
+  .site43_head_col0_BDSPhuCuong .menu_header .menu-list li.active .menu-c2 {
+    display: block;
   }
   .site43_head_col0_BDSPhuCuong .menu-wrapper {
     display: block;
@@ -264,14 +270,12 @@
   padding-right: 70px;
 }
 .site43_form_col0_lienhe .form .item_input h2 {
-  font-family: Segoe-UI;
   font-weight: bold;
   color: #707070;
   margin-bottom: 35px;
 }
 .site43_form_col0_lienhe .form .item_input form input {
   width: 100%;
-  font-family: Segoe-UI;
   font-weight: bold;
   color: #9b9b9b;
   background: #F6F6F6 0% 0% no-repeat padding-box;
@@ -293,7 +297,6 @@
 }
 .site43_form_col0_lienhe .form .item_input form textarea {
   width: 100%;
-  font-family: Segoe-UI;
   font-weight: bold;
   color: #9b9b9b;
   background: #F6F6F6 0% 0% no-repeat padding-box;
@@ -314,7 +317,6 @@
   border-radius: 25px;
   text-transform: uppercase;
   opacity: 1;
-  font-family: Segoe-UI;
   font-weight: normal;
   color: #fff;
   width: 327px;
@@ -329,13 +331,11 @@
   margin-bottom: 50px;
 }
 .site43_form_col0_lienhe .form .item_lienhe .text h3 {
-  font-family: Segoe-UI;
   font-weight: bold;
   color: #565656;
   margin-bottom: 20px;
 }
 .site43_form_col0_lienhe .form .item_lienhe .text p {
-  font-family: Segoe-UI;
   font-weight: normal;
   color: #171717;
 }
@@ -409,7 +409,6 @@
 
 /* site43_foot_col0_BDSPhuCuong */ 
 .site43_foot_col0_BDSPhuCuong {
-  margin-top: 150px;
   background-color: #fafafa;
   padding: 54px 0px;
 }
@@ -705,6 +704,9 @@
   }
   .site43_foot_col0_BDSPhuCuong .phattrien {
     flex-wrap: wrap;
+  }
+  .site43_foot_col0_BDSPhuCuong .footer__icon {
+    margin-top: 10px;
   }
 }
 @media (max-width: 320px) {

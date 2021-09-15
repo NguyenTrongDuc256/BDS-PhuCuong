@@ -96,7 +96,7 @@ img {
 .title2_7 {
   font-size: 27px;
   color: #17171793;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 36px;
 }
 .title2_5 {
@@ -140,28 +140,28 @@ img {
 
 .content2_0 {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   color: #17171793;
 }
 .content2_4 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   color: #17171793;
 }
 .content2_5 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 500;
   color: #17171793;
 }
 .content3_0 {
   font-size: 30px;
   color: #17171793;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 40px;
 }
 .content4_0 {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 500;
   color: #17171793;
 }
 
@@ -181,6 +181,12 @@ img {
 
 .btn-text {
   font-size: 25px;
+}
+
+.btn-xemthem .far {
+  color: #FFF;
+  margin-top: 4px;
+  margin-left: 10px;
 }
 
 .btn {
@@ -574,7 +580,7 @@ img {
     font-size: 16px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .btn-xemthem,
 .btn-gia,
 .btn-gia1 {

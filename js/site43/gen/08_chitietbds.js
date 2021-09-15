@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $('.menu-list > li').click(function(){
+    $(this).closest('li').toggleClass("active");
+  });
   let params = new URL(document.location).searchParams;
   let name = params.get("site");
   var elem = $(".menu-list > li");
@@ -96,6 +99,8 @@ $(function () {
     slidesToScroll: 5,
     asNavFor: ".slider_for",
     arrows: false,
+    prevArrow:'<button type="button" class="slick-prev"><img src="./images/site43/prev2.png"></button>',
+    nextArrow:'<button type="button" class="slick-next"><img src="./images/site43/next2.png"></button>',
     dots: false,
     focusOnSelect: true,
     infinite: true,
@@ -105,20 +110,23 @@ $(function () {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
+          arrows:true,
         }
       },
       {
         breakpoint: 1000,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3
+          slidesToScroll: 3,
+          arrows:true,
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          arrows:true,
         }
       },
      

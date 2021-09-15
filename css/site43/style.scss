@@ -96,7 +96,7 @@ $mau-title: #454545;
     &_7 {
       font-size: 27px;
       color: $mau-content;
-      font-weight: bold;
+      font-weight: 500;
       line-height: 36px;
     }
     &_5 {
@@ -148,17 +148,17 @@ $mau-title: #454545;
   &2 {
     &_0 {
       font-size: 20px;
-      font-weight: bold;
+      font-weight: 500;
       color: $mau-content;
     }
     &_4 {
       font-size: 24px;
-      font-weight: bold;
+      font-weight: 500;
       color: $mau-content;
     }
     &_5 {
       font-size: 25px;
-      font-weight: bold;
+      font-weight: 500;
       color: $mau-content;
     }
   }
@@ -166,14 +166,14 @@ $mau-title: #454545;
     &_0 {
       font-size: 30px;
       color: $mau-content;
-      font-weight: bold;
+      font-weight: 400;
       line-height: 40px;
     }
   }
   &4 {
     &_0 {
       font-size: 40px;
-      font-weight: bold;
+      font-weight: 500;
       color: $mau-content;
     }
   }
@@ -191,6 +191,13 @@ $mau-title: #454545;
 }
 .btn-text {
   font-size: 25px;
+}
+.btn-xemthem{
+  .far{
+    color: #FFF;
+    margin-top: 4px;
+    margin-left: 10px;
+  }
 }
 .btn {
   font-family: "Segoe-UI";
@@ -650,7 +657,7 @@ $mau-title: #454545;
     font-size: 16px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .btn-xemthem,
   .btn-gia,
   .btn-gia1 {

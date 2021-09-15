@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $('.menu-list > li').click(function(){
+    $(this).closest('li').toggleClass("active");
+  });
   let params = new URL(document.location).searchParams;
   let name = params.get("site");
   var elem = $(".menu-list > li");
