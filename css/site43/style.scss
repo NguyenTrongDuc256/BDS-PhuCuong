@@ -102,7 +102,7 @@ $mau-title: #454545;
     &_5 {
       font-size: 25px;
       color: $mau-content;
-      font-weight: bold;
+      // font-weight: bold;
       line-height: 33px;
     }
   }
@@ -121,6 +121,13 @@ $mau-title: #454545;
     }
   }
   &4 {
+    &_1 {
+      font-family: "Segoe-UI-Bold";
+      font-size: 41px;
+      font-weight: bold;
+      color: $mau-title;
+      text-transform: uppercase;
+    }
     &_5 {
       font-family: "Segoe-UI-Bold";
       font-size: 45px;
@@ -282,6 +289,10 @@ $mau-title: #454545;
       }
     }
     &4 {
+
+      &_1 {
+        font-size: 36px;
+      }
       &_5 {
         font-size: 38px;
       }
@@ -349,6 +360,9 @@ $mau-title: #454545;
       }
     }
     &4 {
+      &_1 {
+        font-size: 31px;
+      }
       &_5 {
         font-size: 32px;
       }
@@ -423,6 +437,9 @@ $mau-title: #454545;
       }
     }
     &4 {
+      &_1 {
+        font-size: 29px;
+      }
       &_5 {
         font-size: 30px;
       }
@@ -474,10 +491,10 @@ $mau-title: #454545;
       }
       &_7 {
         font-size: 17px;
-        line-height: 36px;
+        line-height: 25px;
       }
       &_5 {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 33px;
       }
     }
@@ -490,6 +507,9 @@ $mau-title: #454545;
       }
     }
     &4 {
+      &_1 {
+        font-size: 27px;
+      }
       &_5 {
         font-size: 28px;
       }
@@ -547,11 +567,10 @@ $mau-title: #454545;
       }
       &_7 {
         font-size: 16px;
-        line-height: 36px;
       }
       &_5 {
-        font-size: 17px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 22px;
       }
     }
     &3 {
@@ -559,15 +578,18 @@ $mau-title: #454545;
         font-size: 17px;
       }
       &_4 {
-        font-size: 20px;
+        font-size: 19px;
       }
     }
     &4 {
+      &_1 {
+        font-size: 22px;
+      }
       &_5 {
-        font-size: 24px;
+        font-size: 23px;
       }
       &_0 {
-        font-size: 22px;
+        font-size: 20px;
       }
     }
   }
@@ -580,7 +602,7 @@ $mau-title: #454545;
         font-size: 16px;
       }
       &_5 {
-        font-size: 15px;
+        font-size: 14px;
       }
     }
     &3 {

@@ -102,7 +102,6 @@ img {
 .title2_5 {
   font-size: 25px;
   color: #17171793;
-  font-weight: bold;
   line-height: 33px;
 }
 .title3_0 {
@@ -116,6 +115,13 @@ img {
   font-size: 34px;
   font-weight: bold;
   color: #454545;
+}
+.title4_1 {
+  font-family: "Segoe-UI-Bold";
+  font-size: 41px;
+  font-weight: bold;
+  color: #454545;
+  text-transform: uppercase;
 }
 .title4_5 {
   font-family: "Segoe-UI-Bold";
@@ -269,6 +275,9 @@ img {
   .title3_4 {
     font-size: 30px;
   }
+  .title4_1 {
+    font-size: 36px;
+  }
   .title4_5 {
     font-size: 38px;
   }
@@ -321,6 +330,9 @@ img {
   }
   .title3_4 {
     font-size: 28px;
+  }
+  .title4_1 {
+    font-size: 31px;
   }
   .title4_5 {
     font-size: 32px;
@@ -383,6 +395,9 @@ img {
   .title3_4 {
     font-size: 26px;
   }
+  .title4_1 {
+    font-size: 29px;
+  }
   .title4_5 {
     font-size: 30px;
   }
@@ -424,10 +439,10 @@ img {
   }
   .title2_7 {
     font-size: 17px;
-    line-height: 36px;
+    line-height: 25px;
   }
   .title2_5 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 33px;
   }
   .title3_0 {
@@ -435,6 +450,9 @@ img {
   }
   .title3_4 {
     font-size: 26px;
+  }
+  .title4_1 {
+    font-size: 27px;
   }
   .title4_5 {
     font-size: 28px;
@@ -484,23 +502,25 @@ img {
   }
   .title2_7 {
     font-size: 16px;
-    line-height: 36px;
   }
   .title2_5 {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 22px;
   }
   .title3_0 {
     font-size: 17px;
   }
   .title3_4 {
-    font-size: 20px;
+    font-size: 19px;
+  }
+  .title4_1 {
+    font-size: 22px;
   }
   .title4_5 {
-    font-size: 24px;
+    font-size: 23px;
   }
   .title4_0 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .content2_0 {
@@ -510,7 +530,7 @@ img {
     font-size: 16px;
   }
   .content2_5 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .content3_0 {
     font-size: 16px;

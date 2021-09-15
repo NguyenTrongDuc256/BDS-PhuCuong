@@ -40,7 +40,7 @@
   top: 66px;
   left: 0px;
   width: 345px;
-  background: #016a5bcc;
+  background: #fff;
   border-radius: 30px;
   padding: 20px;
   box-shadow: 3px 10px 22px #00000052;
@@ -53,6 +53,9 @@
   position: absolute;
   top: -24px;
   left: 0px;
+}
+.site43_head_col0_BDSPhuCuong .menu-c2 a {
+  color: #454545;
 }
 .site43_head_col0_BDSPhuCuong.scroll {
   position: sticky;
@@ -137,14 +140,14 @@
 .site43_head_col0_BDSPhuCuong .menu-list .menu-c2 {
   display: none;
 }
-.site43_head_col0_BDSPhuCuong .menu-list li {
+.site43_head_col0_BDSPhuCuong .menu-list > li {
   position: relative;
 }
-.site43_head_col0_BDSPhuCuong .menu-list li:hover .menu-c2 {
+.site43_head_col0_BDSPhuCuong .menu-list > li:hover .menu-c2 {
   display: block;
   animation: showAnimation 0.4s ease-in-out;
 }
-.site43_head_col0_BDSPhuCuong .menu-list li.active-color a {
+.site43_head_col0_BDSPhuCuong .menu-list > li.active-color a {
   color: #009865;
 }
 
@@ -281,6 +284,9 @@
     left: 125%;
   }
 }
+.site43_html_col0_vechungtoi .list_hotel {
+  margin-top: 40px;
+}
 .site43_html_col0_vechungtoi .list_hotel .hotel1 .item_hotel {
   max-width: 454px;
   width: 30%;
@@ -376,7 +382,14 @@
 }
 .site43_html_col0_vechungtoi .doingulanhdao h3 {
   text-align: center;
-  margin: 100px 0px;
+  margin-top: 100px;
+}
+.site43_html_col0_vechungtoi .doingulanhdao .top-background {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0px 44px;
 }
 .site43_html_col0_vechungtoi .doingulanhdao .top {
   max-width: 984px;
@@ -392,6 +405,12 @@
   box-shadow: 10px 10px 20px #20251d23;
   padding: 0px 20px 85px 20px;
   text-align: center;
+  background: #fff;
+  transition: all 0.4s ease;
+}
+.site43_html_col0_vechungtoi .doingulanhdao .top .item:hover {
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
 }
 .site43_html_col0_vechungtoi .doingulanhdao .top .item .item_img {
   padding: 53px 0px;
@@ -432,6 +451,11 @@
   box-shadow: 10px 10px 20px #00000029;
   padding: 0px 20px 85px 20px;
   text-align: center;
+  transition: all 0.4s ease;
+}
+.site43_html_col0_vechungtoi .doingulanhdao .gird_scroll .item:hover {
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
 }
 .site43_html_col0_vechungtoi .doingulanhdao .gird_scroll .item .item_img {
   padding: 53px 0px;
@@ -464,6 +488,7 @@
 .site43_html_col0_vechungtoi .giatricotloi #slide_giatricotloi .owl-stage-outer {
   padding: 40px 20px;
   margin: 0 -20px;
+  max-height: 494px;
 }
 .site43_html_col0_vechungtoi .giatricotloi #slide_giatricotloi .owl-item {
   transition: all 0.2s ease;
@@ -472,6 +497,7 @@
 }
 .site43_html_col0_vechungtoi .giatricotloi #slide_giatricotloi .owl-item:hover {
   transition: all 0.2s ease;
+  transform: scale(0.98);
   border: 3px solid #36af84;
 }
 .site43_html_col0_vechungtoi .giatricotloi #slide_giatricotloi .owl-dots span {
@@ -543,13 +569,14 @@
   margin-top: 78px;
   margin-bottom: 22px;
 }
-.site43_html_col0_vechungtoi .tamnhin p {
-  height: 180px;
+.site43_html_col0_vechungtoi .tamnhin p.content3_0 {
+  height: 246px;
   padding-right: 10px;
   display: -webkit-box;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-weight: normal;
 }
 .site43_html_col0_vechungtoi .lotrinh {
   align-items: stretch;
@@ -701,7 +728,7 @@
     margin-top: 30px;
     margin-bottom: 0px;
   }
-  .site43_html_col0_vechungtoi .tamnhin p {
+  .site43_html_col0_vechungtoi .tamnhin p.content3_0 {
     order: 3;
     margin-top: 10px;
     height: auto;
@@ -828,6 +855,7 @@
 
 /* site43_foot_col0_BDSPhuCuong */ 
 .site43_foot_col0_BDSPhuCuong {
+  margin-top: 150px;
   background-color: #fafafa;
   padding: 54px 0px;
 }
@@ -839,10 +867,14 @@
   width: 100%;
 }
 .site43_foot_col0_BDSPhuCuong .left_footer .logo_footer {
-  max-width: 162px;
+  width: 161px;
+  height: 144px;
 }
 .site43_foot_col0_BDSPhuCuong .left_footer .logo_footer img {
   max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .site43_foot_col0_BDSPhuCuong .left_footer h5 {
   margin-top: 46px;
@@ -885,8 +917,11 @@
   max-width: 433px;
   width: 100%;
 }
-.site43_foot_col0_BDSPhuCuong .center_footer ul li {
-  margin-bottom: 93px;
+.site43_foot_col0_BDSPhuCuong .center_footer ul {
+  height: 291px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .site43_foot_col0_BDSPhuCuong .center_footer ul li:last-child {
   margin-bottom: 0px;
@@ -898,11 +933,14 @@
   max-width: 310px;
   width: 100%;
 }
-.site43_foot_col0_BDSPhuCuong .right_footer ul li {
-  margin-bottom: 93px;
+.site43_foot_col0_BDSPhuCuong .right_footer ul {
+  height: 291px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .site43_foot_col0_BDSPhuCuong .right_footer ul li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 31px;
 }
 .site43_foot_col0_BDSPhuCuong .right_footer ul li h5 {
   margin-bottom: 18px;
@@ -1036,6 +1074,9 @@
     max-width: 100%;
     width: 100%;
   }
+  .site43_foot_col0_BDSPhuCuong .center_footer ul {
+    height: auto;
+  }
   .site43_foot_col0_BDSPhuCuong .center_footer ul li {
     margin-bottom: 26px;
   }
@@ -1043,6 +1084,9 @@
     margin-top: 28px;
     max-width: 100%;
     width: 100%;
+  }
+  .site43_foot_col0_BDSPhuCuong .right_footer ul {
+    height: auto;
   }
   .site43_foot_col0_BDSPhuCuong .right_footer ul li {
     margin-bottom: 26px;
@@ -1056,7 +1100,6 @@
     text-align: center;
   }
   .site43_foot_col0_BDSPhuCuong .left_footer .logo_footer {
-    max-width: 136px;
     margin: auto;
   }
   .site43_foot_col0_BDSPhuCuong .left_footer .form_lienhe {

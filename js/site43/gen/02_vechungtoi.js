@@ -92,37 +92,38 @@ $(function () {
         items: 1,
         dots: false,
       });
-});$(document).ready(function(){
-    $("#slide_giatricotloi").owlCarousel({
-        loop: true,
-        margin: 43,
-        nav: false,
+});$(document).ready(function () {
+  $("#slide_giatricotloi").owlCarousel({
+    loop: true,
+    margin: 43,
+    nav: false,
+    items: 4,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      320: {
+        items: 2,
+        margin: 15,
+      },
+      //   400: {
+      //     items: 2,
+      //   },
+      //   600: {
+      //     items: 2,
+      //   },
+      800: {
+        items: 3,
+        margin: 20,
+      },
+      1000: {
         items: 4,
-        dots: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          320: {
-            items: 2,
-            margin: 15,
-          },
-        //   400: {
-        //     items: 2,
-        //   },
-        //   600: {
-        //     items: 2,
-        //   },
-          800: {
-            items: 3,
-            margin: 20,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-})$(document).ready(function(){
+      },
+    },
+  });
+});
+$(document).ready(function(){
     $(function () {
         // var elem = $(".wrapper_tabcontent .tabcontent");
         // elem.eq(0).addClass("js-show-tabcontent");
