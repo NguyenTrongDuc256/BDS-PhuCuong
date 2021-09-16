@@ -21,7 +21,6 @@ $(document).ready(function () {
   var js_menu3 = ["04_chitietsukien", "06_chitiettuyendung", "08_chitietbds"];
  
       if("04_chitietsukien" === name){
-        console.log("heklloo")
         elem.eq(4).addClass("active-color");
       }
       else if("06_chitiettuyendung" === name){
